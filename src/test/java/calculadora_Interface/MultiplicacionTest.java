@@ -38,8 +38,12 @@ public class MultiplicacionTest {
 
     @Test
     public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        double num1 = 1;
+        double num2 = 0;
+        double resultado = 0;
+        
+        Multiplicacion multi = new Multiplicacion(num1,num2);
+        assertEquals(resultado, multi.res);
     }
     
 }

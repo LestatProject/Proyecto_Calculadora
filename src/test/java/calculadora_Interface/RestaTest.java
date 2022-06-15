@@ -38,8 +38,7 @@ public class RestaTest {
 
     @Test
     public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-         double num1 = 1.5;
+        double num1 = 1.5;
         double num2 = 1;
         double resultado = 0;
         

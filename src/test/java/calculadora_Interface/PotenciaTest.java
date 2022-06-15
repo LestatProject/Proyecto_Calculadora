@@ -38,8 +38,12 @@ public class PotenciaTest {
 
     @Test
     public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       double num1 = 2;
+        double num2 = 2;
+        double resultado = 4;
+        
+        Potencia pot = new Potencia(num1,num2);
+        assertEquals(resultado, pot.res);
     }
     
 }

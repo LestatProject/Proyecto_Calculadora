@@ -331,7 +331,8 @@ double n1, n2, resultado;
 
     private void ButtonDivActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonDivActionPerformed
 
-        if (Pantalla.getText().length()>0){
+        if (Pantalla.getText().length()>0)
+        {
             n1=Double.parseDouble(Pantalla.getText());
             operador = '/';
             Pantalla.setText("");
