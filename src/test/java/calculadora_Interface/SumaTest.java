@@ -40,9 +40,9 @@ public class SumaTest {
     @org.junit.jupiter.api.Test
     public void testSomeMethod() {
         // TODO review the generated test code and remove the default call to fail.
-        double num1 = -1;
-        double num2 = 0;
-        double resultado = -1;
+        double num1 = 8;
+        double num2 = 3;
+        double resultado = 11;
         
         Suma suma = new Suma(num1,num2);
         assertEquals(resultado, suma.res);

@@ -38,9 +38,9 @@ public class RestaTest {
 
     @Test
     public void testSomeMethod() {
-        double num1 = 1.5;
-        double num2 = 1;
-        double resultado = 0;
+        double num1 = -25;
+        double num2 = 5;
+        double resultado = 20;
         
         Resta resta = new Resta(num1,num2);
         assertEquals(resultado, resta.res);

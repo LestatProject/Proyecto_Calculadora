@@ -38,12 +38,12 @@ public class DivisionTest {
 
     @Test
     public void testSomeMethod() {
-        double num1 = 2;
-        double num2 = 0;
-        double resultado = 0;
+        double num1 = 8;
+        double num2 = 2;
+        double resultado = 4;
         
-        Multiplicacion multi = new Multiplicacion(num1,num2);
-        assertEquals(resultado, multi.res);
+        Division div = new Division(num1,num2);
+        assertEquals(resultado, div.res);
     }
     
 }

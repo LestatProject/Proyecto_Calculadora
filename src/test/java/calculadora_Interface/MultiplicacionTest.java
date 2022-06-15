@@ -38,9 +38,9 @@ public class MultiplicacionTest {
 
     @Test
     public void testSomeMethod() {
-        double num1 = 1;
-        double num2 = 0;
-        double resultado = 0;
+        double num1 = 6.4;
+        double num2 = 2.5;
+        double resultado = 12.8;
         
         Multiplicacion multi = new Multiplicacion(num1,num2);
         assertEquals(resultado, multi.res);

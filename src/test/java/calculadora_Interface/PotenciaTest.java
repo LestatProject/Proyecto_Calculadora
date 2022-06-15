@@ -39,8 +39,8 @@ public class PotenciaTest {
     @Test
     public void testSomeMethod() {
        double num1 = 2;
-        double num2 = 2;
-        double resultado = 4;
+        double num2 = 8;
+        double resultado = 256;
         
         Potencia pot = new Potencia(num1,num2);
         assertEquals(resultado, pot.res);
